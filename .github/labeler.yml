@@ -1,14 +1,3 @@
-- regExp: ".*\\.ts+$"
-  labels: ["typescript"]
-- regExp: ".*\\.yml+$"
-  labels: ["YAML"]
-- regExp: ".*\\.sql+$"
-  labels: ["database", "critical"]
-- regExp: ".*\\.md+$"
-  labels: ["documentation"]
-- regExp: ".*\\.png+$"
-  labels: ["images"]
-- regExp: "^(pom\\.xml|package\\.json|build\\.gradle)$"
-  labels: ["dependencies"]
-- regExp: ".*\\.(zip|jar|war|ear)+$"
-  labels: ["artifact", "invalid"]
+# Add 'repo' label to any root file changes
+repo:
+  - ./*
