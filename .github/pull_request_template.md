@@ -1,4 +1,4 @@
-##This PR
+## This PR
 resolves #[resolved issue number]
 
 ## Description of Changes
